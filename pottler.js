@@ -6,8 +6,8 @@ async function iniciar () {
         client.logger.level = 'warn'
         client.on('qr', () => {})
 
-        fs.existsSync('./Pottler.json') &&
-client.loadAuthInfo('./Pottler.json')
+        fs.existsSync('./pottler.json') &&
+client.loadAuthInfo('./pottler.json')
 
         client.on('connecting', () => {
         console.log('Conectando')})
@@ -16,7 +16,7 @@ client.loadAuthInfo('./Pottler.json')
         client.on('open', () => {
         console.log('Conectado exitosamente')})
         await Client.connect({timeoutMS: 30*1000})
-        fs.writeFileSync('./Pottler.json',
+        fs.writeFileSync('./pottler.json',
  JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))}
 
 iniciar ()

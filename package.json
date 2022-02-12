@@ -1,0 +1,11 @@
+{
+  "name": "Nombre",
+  "version": "0.0.0",
+  "description": "",
+  "main": "pottler.js",
+  "scripts": {
+  "start": "node pottler.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1"
+}

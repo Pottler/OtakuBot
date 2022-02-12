@@ -8,4 +8,5 @@
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
+  }
 }

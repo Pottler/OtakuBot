@@ -6,5 +6,6 @@
   "scripts": {
   "start": "node pottler.js"},
   "dependencies": {
-    "@adiwajshing/baileys": "^3.4.1"}
+    "@adiwajshing/baileys": "^3.4.1"
+  }
 }

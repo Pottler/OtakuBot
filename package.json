@@ -4,8 +4,7 @@
   "description": "",
   "main": "pottler.js",
   "scripts": {
-  "start": "node pottler.js"
-  },
+  "start": "node pottler.js"},
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"}
 }
